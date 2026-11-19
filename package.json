@@ -1,0 +1,12 @@
+{
+  "name": "pi-stock-notifier",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "bun run index.ts",
+    "check": "bun run index.ts --once",
+    "test:telegram": "bun run index.ts --test",
+    "test:instock": "bun run index.ts --test-instock"
+  }
+}
